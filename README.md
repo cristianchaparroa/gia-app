@@ -11,8 +11,8 @@ This a configuration to build a docker image, this contains:
 By confidentiality you must to get the sign to sing files the pdf files,and certicamara modules.
 
 
+### Build the images
 
- ### Build the images
 
  To build the image  you need to run the following
 
@@ -25,7 +25,8 @@ By confidentiality you must to get the sign to sing files the pdf files,and cert
  `$ docker run -it -p 8080:8080 -p 9990:9990 gia-app-name`
 
 
- ### Access via web
+### Access via web
+
 
  To see the applications deployed or access to web console is necessary get the ip server, then must be run the following command to get the ip to the machine in which is running the container
 
