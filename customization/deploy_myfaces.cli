@@ -1,0 +1,9 @@
+
+# Mark the commands below to be run as a batch
+#batch
+
+deploy /opt/install-myfaces-2.2.9.cli
+shutdown --restart=true
+
+# Execute the batch
+#run-batch

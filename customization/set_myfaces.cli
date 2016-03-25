@@ -1,0 +1,9 @@
+
+# Mark the commands below to be run as a batch
+batch
+
+/subsystem=jsf:write-attribute(name=default-jsf-impl-slot,value=myfaces-2.2.9)
+reload
+
+# Execute the batch
+run-batch
