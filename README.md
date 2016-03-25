@@ -9,7 +9,7 @@ This a configuration to build a docker image, this contains:
 ### Setup GIA environment
 
 By confidentiality you must to get the sign to sing files the pdf files,and certicamara modules.
- 
+
 
 
  ### Build the images
@@ -17,7 +17,6 @@ By confidentiality you must to get the sign to sing files the pdf files,and cert
  To build the image  you need to run the following
 
  `$ docker build --tag=gia-app-name .`
-
 
  ### Run the container
 
@@ -37,3 +36,5 @@ By confidentiality you must to get the sign to sing files the pdf files,and cert
  `NAME ACTIVE DRIVER STATE URL SWARM`
 
 `default virtualbox Running tcp://192.168.99.100:2376`
+
+At this point you can access to the web console in the ip `192.168.99.100:9990`
